@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MINI PROJECT II</title>
+        <link rel="stylesheet" href="style.css">
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>       
+        <section class="header">           
+         <nav>
+             <a href="site.html"><img id="logo" src="logortc.png" alt="LOGO"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>                    
+                     <li><a href="site.html" >HOME</a></li>
+                     <li><a href="phpimplementation.html" >ACCOUNT</a></li>
+                     <li><a href="explore.html" >EXPLORE</a></li>
+                     <li><a href="About.html" >CONTACT US</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()" ></i>
+         </nav>
+          <div class="text-box" >
+              <h1>DIGITIZED RTC</h1>
+              <p>Never think again to travel in your city</p>
+              <a class="tk" href="main.html" >Take Ticket</a>
+          </div>
+         </section>
+ <!-------------FOOTER----------->
+         <section class="footer">
+             <br><br>
+           <h4  > About Us </h4><br>
+          <p> The bus service is  provided since early in 5 AM to 11PM in almost all the routes.</p><br>
+          <p>customer Service</p><br>
+          <p>email:xyz6579@gmail.com<br>
+             phone Number1:7708397186<br>
+             phone Number2:9392825098</p><br>
+          <p>FAQs | Privacy policy | Terms & Conditions | Contact Us | Version 1.2.3 |
+             Copyright@2022 DigitizedRtc.in,All rights are reserved </p>
+          <br><br>
+          <p>Follow us</p>
+          <ul >
+            <li><a href="https://facebook.com/about/"><img src="facebook.png" alt="paytm"></a></li> 
+            <li><a href="https://pay.google.com/about/"><img src="twitter.png" alt="phonepe"></a></li>
+            <li><a href="https://pay.google.com/about/"><img src="whatsapp.png" alt="Google pay"></a></li>
+             <li><a href="https://pay.google.com/about/"><img src="instragram.png" alt="paypal"></a></li>
+             <li><a href="https://pay.google.com/about/"><img src="linkedin.png" alt="paypal"></a></li>
+             </ul><br>
+             <h6>Made with <sub><img id="heart" src="heart2.jpg"></sub> by <I>hafsa & srija</h6></I>
+             <br>
+       </section>
+
+         <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                 navLinks.style.right="0";
+             }
+             function hideMenu(){
+                 navLinks.style.right="-200px";
+             }
+         </script>
+    </body>
+</html>
